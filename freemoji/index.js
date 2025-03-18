@@ -16,7 +16,7 @@ function u(t,a){
             var l="webp";
             m.animated&&(l="gif");
             var emojiLink=`https://cdn.discordapp.com/emojis/${o[2]}.${l}?size=${a}&quality=lossless&name=${o[1]}`;
-            t=t.replace(o[0],`[.](<${emojiLink}>)`);
+            t=t.replace(o[0],`[.](${emojiLink})`);
         }
     }
     return { newContent: t.trim() };
