@@ -9,6 +9,10 @@
         {
             "name": "Rico040",
             "id": "619474349845643275"
+        },
+        {
+            "name": "AK-Abdulmalek",
+            "id": "1280155754346577976"
         }
     ],
     "main": "src/index.ts",
